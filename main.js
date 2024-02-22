@@ -1,7 +1,7 @@
 // Using free Weather API key and URL
 
 const apiKey = "25fad273b0a14ed2949201450241602";
-const apiUrl ="http://api.weatherapi.com/v1/forecast.json?days=1&aqi=yes&q=";
+const apiUrl ="https://api.weatherapi.com/v1/forecast.json?days=1&aqi=yes&q=";
 
 const searchBox = document.querySelector(".search-box input");
 const searchBtn = document.querySelector(".search-box button");
