@@ -146,6 +146,12 @@ async function checkWeather(city){
     }
 }
 
-searchBtn.addEventListener("click", () => {
+searchBtn.addEventListener("mousedown", () => {
     checkWeather(searchBox.value);
 })
+
+
+
+// Note:
+// mousedown is faster than click event
+// local comprerssed png icons are faster than cdn like boxicons or flaticons
